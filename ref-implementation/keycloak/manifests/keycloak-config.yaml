@@ -242,7 +242,7 @@ spec:
               fi
               set -e
               
-              curl -sS -LO "https://dl.k8s.io/release/v1.28.3//bin/linux/amd64/kubectl"
+              curl -sS -LO "https://dl.k8s.io/release/v1.28.3//bin/linux/arm64/kubectl"
               chmod +x kubectl
               
               echo "creating cnoe realm and groups"
